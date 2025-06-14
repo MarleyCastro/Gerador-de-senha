@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #dcdcdc, #042940 );
+    color: white;
+}
+
+.container{
+    border: 0.5px solid white;
+    background-color: #042940;
+    border-radius: 20px;
+    padding: 28px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px #042940;
+}
+
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 8px;
+}
+
+.passBox{
+    background-color: #dcdcdc;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 8px;
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p, .row label{
+    flex-basis: 100%;
+    font-size: 18px;
+}
+
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.genBtn{
+    border: none;
+    outline: auto;
+    background-color: #6cbaeb;
+    padding: 12px 24px ;
+    margin: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.genBtn:hover{
+    background-color: #355568;  
+    color: aliceblue;                
+}
